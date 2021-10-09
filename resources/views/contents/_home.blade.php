@@ -1,4 +1,4 @@
-@extend('layouts/master')
+@extend('layouts.master')
 @section('content')
   <div class="content">
     <div class="blog-list w-dyn-list">
