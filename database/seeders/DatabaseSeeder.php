@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use App\Models\User;
 use Illuminate\Support\Str;
 
 class DatabaseSeeder extends Seeder
@@ -24,7 +23,18 @@ class DatabaseSeeder extends Seeder
           'remember_token' => Str::random(10),
           'role' => 'admin'
         ]);
-        \App\Models\User::factory(100)->create();
+        
+        for($i = 1; $i <= 100; $i++){
+          $faker = Faker\Generator::create('id_ID');
+          DB::table('users')->insert([
+            'name' => $faker->name,
+            'email' => $faker->safeEmail,
+            'email_verified_at' => now(),
+            'password' => bcrypt('password'),
+            'remember_token' => Str::random(10),
+            'role' => 'user'
+          ]);
+        }
 
         for ($i = 1; $i <= 500; $i++){
           DB::table('contents')->insert([

@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'contents._home');
-Route::get('/admin','DashboardController');
+Route::get('/admin')
