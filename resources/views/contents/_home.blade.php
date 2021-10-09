@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('content-blog')
+@section('content')
   <div class="content">
     <div class="blog-list w-dyn-list">
       <div role="list" class="w-dyn-items">
