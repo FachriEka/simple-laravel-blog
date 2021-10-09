@@ -25,10 +25,10 @@ class DatabaseSeeder extends Seeder
         ]);
         
         for($i = 1; $i <= 100; $i++){
-          $faker = Faker\Generator::create('id_ID');
+          $name = array_rand(['fahri', 'ari', 'fakhri', 'ihwan', 'ikhwan', 'iwan']);
           DB::table('users')->insert([
-            'name' => $faker->name,
-            'email' => $faker->safeEmail,
+            'name' => $name,
+            'email' => $name.rand()."@gmail.com",
             'email_verified_at' => now(),
             'password' => bcrypt('password'),
             'remember_token' => Str::random(10),
