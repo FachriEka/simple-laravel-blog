@@ -26,7 +26,7 @@
 </head>
 
 <body>
-@include('layouts/includes/_sidebar')
+@include('layouts.includes._sidebar')
 @yield('content')
   <script src="{{asset('assets/js/jquery-3.6.0.js')}}" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="{{asset('assets/js/bootstrap.bundle.min')}}" type="text/javascript"></script>
