@@ -17,10 +17,11 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
       for($i = 1; $i <= 100; $i++){
-        $name = array_rand(['fahri', 'ari', 'fakhri', 'ihwan', 'ikhwan', 'iwan']);
+        $name = ['fahri', 'ari', 'fakhri', 'ihwan', 'ikhwan', 'iwan'];
+        $key_name = array_rand($name);
         DB::table('users')->insert([
-          'name' => $name,
-          'email' => $name.rand()."@gmail.com",
+          'name' => $name[$key_name],
+          'email' => $name[$key_name].rand()."@gmail.com",
           'email_verified_at' => now(),
           'password' => bcrypt('password'),
           'remember_token' => Str::random(10),
