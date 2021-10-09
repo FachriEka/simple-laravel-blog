@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
           'title' => 'Example '.$i,
           'slug' => 'Example_'.$i,
           'content' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ea quo perferendis accusantium ex natus voluptatibus. Expedita, temporibus reiciendis voluptates assumenda ipsum vel, sed sapiente a nisi cupiditate alias minima.',
-          'user_id' => User::where('role', '!=', 'admin')->random()->id
+          'user_id' => User::where('role', '!=', 'admin')->get()->random()->id
         ]);
       }
       DB::table('users')->insert([
