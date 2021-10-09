@@ -52,7 +52,7 @@
   @include('layouts.includes._sidebarDashboard')
     <div class="wrapper d-flex flex-column min-vh-100 bg-light">
       @include('layouts.includes._navbarDashboard')
-      @section('content-dashboard')
+      @yield('content-dashboard')
       <footer class="footer">
         <div><a href="https://coreui.io">Fari-Blog </a> &copy; 2021 creativeLabs.</div>
         <div class="ms-auto">Powered by&nbsp;<a href="https://coreui.io/bootstrap/ui-components/">CoreUI UI Components</a></div>
