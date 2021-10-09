@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
           'password' => bcrypt('admin'),
           'remember_token' => Str::random(10),
           'role' => 'admin'
-        ])
+        ]);
         \App\Models\User::factory(100)->create();
 
         for ($i = 1; $i <= 500; $i++){
