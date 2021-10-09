@@ -1,0 +1,13 @@
+https://moon-template.webflow.io/
+https://moon-template.webflow.io/all-posts
+https://moon-template.webflow.io/about
+https://moon-template.webflow.io/contact
+https://moon-template.webflow.io/posts/coffee-variety-macchiato-as-organic-ut-variety-caffeine-americano
+https://moon-template.webflow.io/categories/travel
+https://moon-template.webflow.io/posts/cafe-au-lait-turkish-doppio-ristretto
+https://moon-template.webflow.io/posts/coffee-sugar-chicory-seasonal-espresso-barista-americano
+https://moon-template.webflow.io/categories/art
+https://moon-template.webflow.io/categories/music
+https://moon-template.webflow.io/posts/half-and-half-variety-milk-viennese-body-cappuccino
+https://moon-template.webflow.io/posts/steamed-siphon-froth-mazagran-cafe-au-lait
+https://moon-template.webflow.io/categories/tech
