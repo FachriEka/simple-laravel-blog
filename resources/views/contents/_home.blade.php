@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('content')
+@section('content-blog')
   <div class="content">
     <div class="blog-list w-dyn-list">
       <div role="list" class="w-dyn-items">
@@ -71,4 +71,4 @@
     </div>
     <div class="button-wrapper"><a href="all-posts" class="button w-button">More posts →</a></div>
   </div>
-@stop
+@endsection
