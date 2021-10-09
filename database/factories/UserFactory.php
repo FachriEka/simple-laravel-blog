@@ -23,7 +23,7 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
-            $factory->define(App\Persons::class, function (Faker\Generator $faker) { 
+            $factory->define(App\User::class, function (Faker\Generator $faker) { 
               return [ 
                 'name' => $faker->name, 
                 'email' => $faker->safeEmail, 
