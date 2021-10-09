@@ -10,7 +10,7 @@ class MainController extends Controller
 {
     public function index(){
       $contents = Contents::with('user')
-        ->pagination(10);
+        ->paginate(10);
       return view('contents._home', compact('contents'));
     }
 }
