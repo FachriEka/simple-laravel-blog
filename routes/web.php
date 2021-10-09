@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'contents._home');
+Route::get('/', 'MainController@index');
 Route::get('/dashboard','DashboardController@index');
