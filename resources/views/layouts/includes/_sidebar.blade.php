@@ -5,20 +5,22 @@
         </a>
         <nav role="navigation" class="navigation-menu w-nav-menu">
           <p class="main-subheading w-hidden-medium w-hidden-small w-hidden-tiny">
-            Selamat datang diblog kami, plang aja sana<a href="#">kategori</a>.
+            Berbagi Artikelmu disini di <Stron>Fari-Blog</strong>.
           </p>
           <div class="divider w-hidden-medium w-hidden-small w-hidden-tiny">
           </div>
-          <a href="" aria-current="page" class="nav-link w-nav-link w--current">BERANDA</a>
-          <a href="all-posts" class="nav-link w-nav-link">POSTS</a>
-          <a href="about" class="nav-link w-nav-link">Tentang Kami</a>
-          <a href="contact" class="nav-link w-nav-link">Kategori</a>
+          <a href="" aria-current="page" class="nav-link w-nav-link w--current">HOME</a>
+          <a href="" aria-current="page" class="nav-link w-nav-link w--current">POSTS</a>
+          <a href="" aria-current="page" class="nav-link w-nav-link w--current">CATEGORY</a>
+          <a href="" aria-current="page" class="nav-link w-nav-link w--current">ABOUTS</a>
+          <a href="" aria-current="page" class="nav-link w-nav-link w--current">HOW TO PUBLISH POST</a>
           <div class="divider"></div>
+          <a aria-current="page" class="nav-link w-nav-link w--current">Login</a>
           <div class="social-link-group">
-            <a href="#" class="social-icon-link w-inline-block">
+            <a href="https://facebook.com/fari-blog" class="social-icon-link w-inline-block">
               <img src="https://assets.website-files.com/5e4b19aa01d14d49bd4eabde/5e4b19aa01d14d6e5e4eac14_social-03-white.svg" width="25" alt="" />
             </a>
-            <a href="#" class="social-icon-link w-inline-block">
+            <a href="https://instagram.com/fari-blog" class="social-icon-link w-inline-block">
               <img src="https://assets.website-files.com/5e4b19aa01d14d49bd4eabde/5e4b19aa01d14ddb354eac82_social-07-white.svg" width="25" alt="" />
             </a>
           </div>
